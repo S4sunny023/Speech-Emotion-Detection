@@ -4,7 +4,7 @@ import librosa
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 
-model = load_model('F:\Speech-Emotion-recognition\speech_model.h5')
+model = load_model('speech_model.h5')
 
 def extract_features(audio, sample_rate):
     
